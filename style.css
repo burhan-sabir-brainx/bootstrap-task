@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.topbar {
+  background-color: #0d4f9a;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search .wrap a{
+  color: green;
+  margin: 10px;
+}
+.search .wrap a i{
+  color: #0d4f9a;
+}
+.topwhitetext {
+  color: white;
+}
+.account {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  border: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #006db7;
+  width: 190px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #0d4f9a;
+}
+.account:hover .dropdown-content {
+  display: block;
+}
+.account:hover .dropbtn {
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.6;
+}
+.cart {
+  margin: 0px 10px 0px 10px;
+}
+.dropdown-arrow {
+  vertical-align: top;
+  margin-left: 1px;
+  font-size: 15px;
+}
+.user-icon {
+  margin-right: 1px;
+}
+.cart-icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+.cart:hover .dropbtn {
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.6;
+}
+.phone-icon {
+  color: green;
+  margin-right: 5px;
+}
+.topleft-small a {
+  font-size: 12px;
+  color: white;
+}
+.sitenav {
+  background-image: url("images/bg_a71a657f-2566-4a98-a55e-e76b5555861c.png");
+}
+.search-logo,
+.menu-logo {
+  color: #0d4f9a;
+  font-size: 25px;
+  margin: 10px;
+}
+.site-body .image{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.site-body .image h2{
+  color: #0d4f9a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.checked-star{
+  color: green;
+}
+span.review-text{
+  color: #006db7;
+  font-size: 12px;
+}
+.site-body .package-head{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.site-body .package-head h2{
+  font-size: 20px;
+  color: #0d4f9a;
+  font-weight: 700;
+}
+.site-body .package-head .money{
+  margin-top: -10px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.package-head .options .button{
+  border: 2px solid #0d4f9a;
+  font-size: 12px;
+  padding: 15px 3px 15px 3px;
+  border-radius: 5px;
+  color: #0d4f9a;
+  font-weight: 500;
+}
+.package-head .options .selected{
+  background-color: #0d4f9a;
+  color: #fff;
+}
+.package-detail-small{
+  margin-top: 30px;
+}
+.package{
+  border: 2px solid #0d4f9a;
+  padding: 15px;
+  margin: 5px 0px 5px 0px;
+}
+.popular{
+  border: 5px solid green;
+}
+.pricingWrapper{
+  width: 70%;
+  height: fit-content;
+  color: #0d4f9a;
+  font-weight: 700;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.flavor{
+  padding: 10px 20px 10px 20px;
+  height: fit-content;
+  color: white;
+  background-color: green;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.price{
+  color: black;
+}
+.discount{
+  color: red;
+  font-size: 12px;
+  font-style: italic;
+}
+.price-bag{
+  font-size: 10px;
+  color: green;
+}
+.price-bag .boldtext{
+  font-size: 20px;
+}
+.site-body{
+  border-bottom: 5px solid #0d4f9a;
+}
+.listSection{
+  margin-top: 50px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+}
+.listSection h2{
+  font-size: 25px;
+  font-weight: 700;
+}
+.health-list{
+  font-size: 15px;
+}
+.health-list li{
+  margin-left: 30px;
+}
+.health-list p{
+  font-weight: 600;
+}
+.qualities{
+  background-color: #0d4f9a;
+  border: 1px solid #fff;
+}
+.wrapIcon .qualities{
+  position: relative; 
+}
+.wrapIcon .qualities .icon{
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrapIcon .qualities p{
+  margin-top: 60px;
+  color: #fff;
+}
+.small-qualities{
+  background-color: #0d4f9a;
+  padding: 10px;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .dropdown-arrow {
+    vertical-align: baseline;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  .user-icon {
+    margin-right: 5px;
+  }
+  .dropbtn {
+    font-size: 14px;
+  }
+  .topleft-small a {
+    font-size: 14px;
+  }
+  .sitenav{
+    border-bottom: solid 5px #0d4f9a;
+  }
+  .tag{
+    background-color: #0d4f9a;
+    color: #fff;
+    font-weight: 600;
+    margin: auto;
+    padding: 5px;
+  }
+  .site-body .image h2{
+    font-size: 25px;
+  }
+  .site-body .package-head h2{
+    font-size: 25px;
+  }
+  .site-body .package-head .money{
+    font-size: 15px;
+  }
+  .package-head .options .button{
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .shop {
+    position: relative;
+    display: inline-block;
+  }
+  .shop-dropbtn {
+    display: inline-block;
+    background-color: #0d4f9a;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .shop-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 190px;
+    z-index: 1;
+  }
+  .shop-dropdown-content a {
+    color: black;
+    padding: 5px 14px;
+    text-decoration: none;
+    color: #0d4f9a;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+  }
+  .shop-dropdown-content a:hover {
+    opacity: 0.6;
+  }
+  .shop:hover .shop-dropdown-content {
+    display: block;
+  }
+  .same-navlink {
+    color: #0d4f9a;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .same-navlink:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .biotrust {
+    background-color: transparent;
+    color: #0d4f9a;
+  }
+  .crumblink{
+    margin: 10px 0px 5px 10px;
+    color: #0d4f9a;
+    font-size: 14px;
+  }
+  .package-detail{
+    margin-top: 50px;
+  }
+  .package-large{
+    border: 2px solid #0d4f9a;
+    padding: 20px;
+    height: fit-content;
+  }
+  .major{
+    position: relative;
+    height: 17rem;
+    border: 5px solid #0d4f9a;
+  }
+  .package-large h3{
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0d4f9a;
+  }
+  .major h3{
+    margin-top: 60px;
+  }
+  .package-large h4{
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  .package-large h4 span{
+    font-size: 12px;
+  }
+  .green{
+    color: green;
+  }
+  .package-large button{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px 8px 30px;
+    background-color: green;
+    color: white;
+  }
+  .popular{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background-color: #0d4f9a;
+    color: white;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #carouselExampleIndicators{
+    margin-top: 20px;
+    height: 300px;
+  }
+  #carouselExampleIndicators img{
+    width: 100%;
+    height: 300px;
+}
+}
